@@ -1,0 +1,81 @@
+.all {
+  display: flex;
+  border-color: darkblue;
+  padding: 120px;
+}
+
+.all :hovor {
+  transform: scale(1.1);
+}
+
+p {
+  margin-top: 20px;
+  width: 140px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgb(0, 128, 255);
+  width: auto;
+  font-size: 20px;
+  border-radius: 6px;
+  color: aliceblue;
+  height: 40px;
+}
+
+input:hover {
+  cursor: pointer;
+  background-color: rgb(11, 183, 23);
+  color: white;
+}
+
+.free {
+  border: 1px solid;
+  border-color: rgb(62, 99, 244);
+  border-radius: 8px;
+  padding: 60px;
+  width: 21%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+b {
+  font-size: 50px;
+  font-weight: 800;
+  color: blue;
+  margin-left: 35px;
+  margin-bottom: 40px;
+  margin-top: 49px;
+}
+
+sup {
+  font-size: 30px;
+  font-weight: 800;
+  color: blue;
+  margin-left: 15px;
+}
+
+sub {
+  font-size: 20px;
+  font-weight: 400;
+  color: blue;
+}
+
+.free:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(18, 19, 19);
+  color: aliceblue;
+  transition: all linear 0.45s;
+}/*# sourceMappingURL=task6.css.map */
